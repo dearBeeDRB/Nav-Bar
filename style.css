@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style-type:none;
+    display: inline-block;
+    width: 100px;
+}
+
+.nav-bar{
+    /* padding: 30px 80px; */
+    /* text-align: right; */
+    background-color: rgba(250, 248, 248, 0.299);
+    position: sticky;
+    top: 0px;
+}
+#header{
+    height: 100vh;
+    width: 100%;
+    background-image: /*linear-gradient(90deg, rgba(100, 100, 227, 0.5), rgba(5, 5, 108, 0.5)),*/ url("./images/yannic-laderach-Dqx4XWuXu7w-unsplash.jpg");
+    background-position: top;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: darkgray;
+    padding: 4px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: darkgray;
+    color: antiquewhite;
+}
+nav{
+    padding: 30px 80px;
+    text-align: right;
+}
+.paragraph-container{
+    margin: 10px 20px;
+}
+
