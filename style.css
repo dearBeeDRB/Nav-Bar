@@ -40,6 +40,24 @@ nav{
     text-align: right;
 }
 .paragraph-container{
-    margin: 10px 20px;
+    margin: 40px 30px;
 }
-
+.heading{
+    color: darkgray;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    word-spacing: 1rem;
+}
+.first-para-container, .second-para-container, .third-para-container{
+    text-align: center;
+}
+.paragraph{
+    /* justify-content: center; */
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
